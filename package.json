@@ -1,0 +1,46 @@
+{
+  "name": "tttow-reinforcement",
+  "version": "0.0.1",
+  "description": "Libless Reinforcement learning on the browser to win tic tac toe",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "type": "module",
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "type": "module"
+  },
+  "scripts": {
+    "start": "parcel",
+    "dev": "npm run start",
+    "build": "parcel build",
+    "lint": "eslint . ",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"**/*.{ts,tsx,css}\"",
+    "lint:all": "npm run lint:fix && npm run format"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "parcel": "2.12.0",
+    "prettier": "^3.2.5",
+    "typescript": "5.4.4"
+  },
+  "keywords": [
+    "refinrocement",
+    "learning",
+    "ai",
+    "machine",
+    "learning",
+    "tic",
+    "tac",
+    "toe"
+  ],
+  "author": "hirako2000",
+  "license": "MIT"
+}

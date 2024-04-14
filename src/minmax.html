@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+
+    <nav>
+        <div class="nav">            
+            <div class="nav-links">
+              <a href="./minmax.html">MinMax</a> | 
+              <a href="./q-learning.html">Q-Learning</a> | 
+              <a href="./monte-carlo.html">Monte Carlo</a>
+            </div>
+          </div>
+    </nav>
+    <div class="container">
+        <div class="status">
+        <div>
+            <span class="iterations-label">Iterations: </span>
+            <span id="iteration">0</span>
+        </div>
+
+        <div>
+            <span>X Wins: </span>
+            <span id="xWins">0</span>
+        </div>
+
+        <div>
+            <span>O Wins: </span>
+            <span id="oWins">0</span>
+        </div>
+
+        <div>
+            <span>&nbsp;Draws: </span>
+            <span id="draws">0</span>
+        </div>
+
+        <div id="message">Welcome to MinMax Tic Tac Toes!</div>
+        </div>
+
+        <div id="board" class="board"></div>
+
+        <h4 id="aiThoughtProcess"></h4>
+        <div id="scoresLeft"></div>
+        <div id="scoresRight"></div>
+    </div>
+
+    <script type="module" src="./index.ts"></script>
+
+    <footer>
+        <div class="left">
+            Reinforcement Learning
+        </div>
+        <div class="right">
+            <a href="https://github.com/hirako2000">Hirako</a> | <a href="https://github.com/hirako2000/tttow-reinforcement-learning">Source</a>
+        </div>
+    </footer>
+  </body>
+</html>
