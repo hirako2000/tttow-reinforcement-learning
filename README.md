@@ -248,12 +248,7 @@ If you too produce work and publish it out there, it's clearer to choose a [lice
 
 ## Acknowledgments
 
-It would never end. I've done this work not just off dozens of other people's open source work, but hundreds thousands or maybe millions.
-Special kudo to the gatsby team that made such an easy tool to build static websites, the pipeline and community is awesome.
-
-Whoever made markdown, although that was probably inspired by some other cool markups languages, thank you.
-
-the js community, millions of developers made the npm ecosystem so rich one can build virtually anything with node.
+Richard S. Sutton and Andrew G. Barto for their great book: **Reinforcement Learning** _An introduction_
 
 If you decide to re-use this repo, go ahead. No need to credit or link back to this repo/site. Although it would be much appreciated.
 **Don't re-republish the UI and logic pretty much as is though**, it is lame, and shameless.
