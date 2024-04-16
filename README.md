@@ -207,6 +207,9 @@ _There are free hosting services out there, e.g [surge.sh](https://surge.sh), or
 - [x] Render training metadata
 - [x] Render AI decision making
 - [x] better layout
+- [ ] Make q learning actually work!
+- [ ] Monte Carlo
+- [ ] Genetic algorithm 
 - [ ] superb layout
 - [ ] amazing layout
 - [ ] Measure AI performance
