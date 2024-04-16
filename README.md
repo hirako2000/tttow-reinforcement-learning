@@ -13,14 +13,14 @@
 
   <h3 align="center">Personal Website</h3>
 
-   <a href="https://tttow.mtassoumt.uk">
+   <a href="https://tttoe.surge.sh/">
       <img src="images/tttow-reinforcement-learning-tablet.png" alt="screenshot" width="30%">
    </a>
 
   <p align="center">
     A static web landing page along with portfolios, projects and blog posts.
     <br />
-    <a href="https://tttow.mtassoumt.uk"><strong>See live »</strong></a>
+    <a href="https://tttoe.surge.sh/"><strong>See live »</strong></a>
     <br />
     <br />
     <a href="https://github.com/hirako2000/tttow-reinforcement-learning/issues">Report Bug</a>
@@ -108,12 +108,16 @@ Yes of course I could use Python. But does it run on the browser?
 
 <div align="center">
 
-   <a href="https://tttow.mtassoumt.uk">
+   <a href="https://tttoe.surge.sh/">
       <img src="images/tttow-desktop.png" alt="screenshot" width="60%">
    </a>
 </div>
 
 Do I know what I'm doing? Not quite.
+
+<a href="https://tttoe.surge.sh/minmax.html">MinMax algo</a>
+<a href="https://tttoe.surge.sh/q-learning.html">Q-Learning algo</a>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
