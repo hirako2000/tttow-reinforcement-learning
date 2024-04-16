@@ -18,7 +18,7 @@
    </a>
 
   <p align="center">
-    A static web landing page along with portfolios, projects and blog posts.
+    Reinforcement Learning to beat Tic Tac Toe on the Browser
     <br />
     <a href="https://tttoe.surge.sh/"><strong>See live »</strong></a>
     <br />
@@ -255,7 +255,7 @@ Whoever made markdown, although that was probably inspired by some other cool ma
 
 the js community, millions of developers made the npm ecosystem so rich one can build virtually anything with node.
 
-If you decide to re-use this repo to build your own profile, go ahead. No need to credit or link back to this repo/site. Although it would be much appreciated.
+If you decide to re-use this repo, go ahead. No need to credit or link back to this repo/site. Although it would be much appreciated.
 **Don't re-republish the UI and logic pretty much as is though**, it is lame, and shameless.
 Tweak the look and feel, custom the training, make it better, make it your own. Make it so that I wouldn't come across your stuff and think that it is mine. So that nobody comes across your stuff and somehow finds out it's a louzy copy of someone else lacking added value and personalisation.
 
