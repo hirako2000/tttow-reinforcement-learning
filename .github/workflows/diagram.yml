@@ -7,6 +7,7 @@ on:
 jobs:
   get_data:
     runs-on: ubuntu-latest
+    using: 'node20'
     steps:
       - name: Checkout code
         uses: actions/checkout@master
