@@ -14,7 +14,7 @@
   <h3 align="center">Personal Website</h3>
 
    <a href="https://tttoe.surge.sh/">
-      <img src="images/tttow-reinforcement-learning-tablet.png" alt="screenshot" width="30%">
+      <img src="./images/tttow-desktop.png" alt="screenshot" width="30%">
    </a>
 
   <p align="center">
@@ -109,7 +109,7 @@ Yes of course I could use Python. But does it run on the browser?
 <div align="center">
 
    <a href="https://tttoe.surge.sh/">
-      <img src="images/tttow-desktop.png" alt="screenshot" width="60%">
+      <img src="./images/tttow-desktop.png" alt="screenshot" width="60%">
    </a>
 </div>
 
