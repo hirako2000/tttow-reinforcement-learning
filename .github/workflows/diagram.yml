@@ -11,8 +11,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@master
       - name: Update diagram
-        uses: githubocto/repo-visualizer@0.9.1
-        using: 'node20'
+        uses: hirako2000/repo-visualizer@0.9.2
         with:
           output_file: "images/diagram.svg"
           excluded_paths: "dist,node_modules,.gitignore,.github"
