@@ -16,19 +16,21 @@
     "start": "parcel",
     "dev": "npm run start",
     "build": "parcel build",
+    "deploy": "npm run build && cp ./images/favicon.ico dist/ && surge dist tttoe.mtassoumt.uk",
     "lint": "eslint . ",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write \"**/*.{ts,tsx,css}\"",
     "lint:all": "npm run lint:fix && npm run format"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.6.0",
-    "@typescript-eslint/parser": "^7.6.0",
-    "eslint": "^9.0.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.1.3",
+    "@typescript-eslint/eslint-plugin": "7.6.0",
+    "@typescript-eslint/parser": "7.6.0",
+    "eslint": "9.0.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.1.3",
     "parcel": "2.12.0",
-    "prettier": "^3.2.5",
+    "prettier": "3.2.5",
+    "surge": "0.23.1",
     "typescript": "5.4.4"
   },
   "keywords": [
