@@ -1,7 +1,7 @@
 import { Player, TicTacToe, getOppositePlayer } from './game';
-import { minimax } from './trainWorker';
+import { minimax } from './minmax-training';
 
-const worker = new Worker(new URL('./trainWorker.ts', import.meta.url), {
+const worker = new Worker(new URL('./minmax-training.ts', import.meta.url), {
   type: 'module',
 });
 
