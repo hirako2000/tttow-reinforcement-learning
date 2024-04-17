@@ -11,7 +11,7 @@
 <br />
 <div align="center">
 
-  <h3 align="center">Personal Website</h3>
+  <h3 align="center">Reinforcement Learning Tic Tac Toe</h3>
 
    <a href="https://tttoe.surge.sh/">
       <img src="./images/tttow-desktop.png" alt="screenshot" width="30%">
@@ -194,7 +194,7 @@ _There are free hosting services out there, e.g [surge.sh](https://surge.sh), or
 
 ## Codebase
 
-![Visualization of the codebase](./diagram.svg)
+![Visualization of the codebase](./images/diagram.svg)
 
 ## Roadmap
 
