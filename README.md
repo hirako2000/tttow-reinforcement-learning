@@ -66,19 +66,13 @@ OK, DOkey
 
 ## 🛠 Installation & Set Up
 
-1. Install the Gatsby CLI
+1. Install and use the correct version of Node using [nvm](https://github.com/nvm-sh/nvm)
 
    ```sh
-   npm install -g gatsby-cli
+   nvm install && nvm use 18
    ```
 
-2. Install and use the correct version of Node using [nvm](https://github.com/nvm-sh/nvm)
-
-   ```sh
-   nvm install
-   ```
-
-3. Install dependencies
+2. Install dependencies
 
    ```sh
    npm install
