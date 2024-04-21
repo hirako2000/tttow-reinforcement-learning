@@ -196,8 +196,8 @@ _There are free hosting services out there, e.g [surge.sh](https://surge.sh), or
 - [x] Human vs Human
 - [x] Minmax training
 - [x] Human vs AI
-- [x] Unbeatable minmax model
-- [x] Unbeatable Q-learning
+- [ ] Unbeatable minmax model
+- [ ] Unbeatable Q-learning
 - [x] Render training metadata
 - [x] Render AI decision making
 - [x] better layout
