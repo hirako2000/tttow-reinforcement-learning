@@ -84,7 +84,7 @@ OK, DOkey
    npm start
    ```
 
-## Research outcome
+## Research and practice outcome
 
 Intense journey. Most was able to implement three different reinforcement learning agents. None of them build a model, none are supervised nor non supervised.  
 Q-learning agent builds a q-table mapping contex to good move to make.
