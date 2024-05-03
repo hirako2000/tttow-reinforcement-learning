@@ -8,7 +8,7 @@ interface StateActionValues {
   [action: number]: number;
 }
 
-const NUM_ITERATIONS = 3000000;
+const NUM_ITERATIONS = 1500000;
 const LEARNING_RATE = 0.15;
 const DISCOUNT_FACTOR = 0.1;
 let explorationRate = 1.0;
