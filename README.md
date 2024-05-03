@@ -84,7 +84,41 @@ OK, DOkey
    npm start
    ```
 
-## 🚀 Building and Running for Production
+## Research outcome
+
+Intense journey. Most was able to implement three different reinforcement learning agents. None of them build a model, none are supervised nor non supervised.  
+Q-learning agent builds a q-table mapping contex to good move to make.
+minmax and Monte Carlo determine the next good move on in real time, both build a tree of possible moves given the current state of the game explores until determining a 'good' move on the fly.
+
+### Dive into Reinforcement learning
+
+After eading relevant material, and getting hands on. Built some reinforcement learning algorithm(s) to later on build one to play a MTG style card games.
+Coding the 3 agents: 
+
+- Spent 1 week reading only
+- 1 week coding and reading each day
+- Took a week break
+- Went back at it with a revenge to implement Monte Carlo
+
+None of the 3 deliver an unbeatable Tic Tac Toe player, they should but I'm giving up for now.
+they aren't even particularily good, except minmax that has a decent play and will pull some draws and even win against a non perfect playing human
+
+I could get it to work with weeks of effort. I will explore further instead: 
+
+- Genetic algorithm
+- Trust Region Policy Optimization (TRPO) 
+- Hindsight Experience Replay (HER), etc. 
+
+### Lesson learnt and taking it further
+
+There are more optimal reinforement learning methods to play and beat humans at MTG kind of card games.
+I've figured via this hands on practical application of minmax/q-learning, and even monte carlo may not cut it for a game like MGT
+
+The complexity is far greater than for tic tac toe chess, or even Go. I will need to dig further and combined methods once I implement the MGT engine. 
+Those 3 not only would not perform in such complex contexts having trillions of possibilities, but they would lead to a very predictable AI
+which would make the AI boring for such kind of game and easily beatable by players who can build custom decks against models trained with a de facto limited set of decks.
+
+## 🚀 Building this and Running for Production
 
 1. Generate a full static production build
 
